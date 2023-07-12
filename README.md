@@ -6,6 +6,9 @@ B op C before any computation of B or C.
 - Code hoisting does not reduce time but reduces space.
 - final_ae.cpp corresponds to the optimisation pass written in the LLVM compiler that performs Anticipated Expression Analysis on Intermediate Representation(IR) of code and appropriately performs code hoisting.
 
+<img src="img1.png" height = 350 width=500>
+<img src="img2.png" height = 350 width=500>
+<img src="img3.png" height = 350 width=500>
 
 ## High level idea of how anticipated expressions are found :
 - V_USE and V_DEF is calculated as mentioned above.
